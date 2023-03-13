@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molbhav Bajar</title>
+    <link rel="preco nnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain/bsb.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/Style1.css">
+    <link rel="stylesheet" href="../CSS/Style2.css">
+</head>
+<body>
+    <div class="preheader">
+        <div class="container-fluid px-4  ">
+            <div class="row textPH pt-1 ">
+                <div class="col col-5 ">
+                    <div class="row ms-auto pt-2 ">
+                        <div class="col col-12 sIcon ">
+                            <a href="#" class="socialMI"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="socialMI"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="socialMI"><i class="fa-brands fa-instagram"></i></a>
+                            <span class="mx-3">Welcome to Molbhav Bajar - Real,Authentic Marcket of India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-7 align-items-center   ">
+                    <div class="row pt-0">
+                        <div class="col col pt-2 pb-0">
+                            <p class="animated shake">Customer care will be open 24/7 <i class="fa-solid fa-phone"></i> +91 8887930549</p>
+                        </div>
+                        <div class="col col timing">
+                            <a><i class="fa-regular fa-clock"></i> 10.00 am to 6.00 pm (Monday to Friday)</a>
+
+                            <button type="button" class="btn btn-outline-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-person-lock"></i>
+                                Login/SignUp
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MODEL-->
+
+    <div class="modal fade my-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login Panel</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Section: Design Block -->
+
+                    <div id="logreg-forms">
+                        <form class="form-signin">
+                            <h1 class="h3 mb-2 font-weight-normal" style="text-align: center">Sign in</h1>
+                            <div class="social-login">
+                                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i>Sign in with Facebook</span> </button>
+                                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i>Sign in with Google+</span> </button>
+                            </div>
+                            <p style="text-align: center">OR  </p>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+
+                            <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i>Sign in</button>
+                            <a href="#" id="forgot_pswd">Forgot password?</a>
+                            <hr>
+                            <!-- <p>Don't have an account!</p>  -->
+                            <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>Sign up New Account</button>
+                        </form>
+
+                        <form action="/reset/password/" class="form-reset">
+                            <input type="email" id="resetEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                            <button class="btn btn-primary btn-block" type="submit">Reset Password</button>
+                            <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i>Back</a>
+                        </form>
+
+                        <form action="/signup/" class="form-signup">
+                            <div class="social-login">
+                                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i>Sign up with Facebook</span> </button>
+                            </div>
+                            <div class="social-login">
+                                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i>Sign up with Google+</span> </button>
+                            </div>
+
+                            <p style="text-align: center">OR</p>
+
+                            <input type="text" id="user-name" class="form-control" placeholder="Full name" required="" autofocus="">
+                            <input type="email" id="user-email" class="form-control" placeholder="Email address" required autofocus="">
+                            <input type="password" id="user-pass" class="form-control" placeholder="Password" required autofocus="">
+                            <input type="password" id="user-repeatpass" class="form-control" placeholder="Repeat Password" required autofocus="">
+
+                            <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i>Sign Up</button>
+                            <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i>Back</a>
+                        </form>
+                        <br>
+                    </div>
+                    <!-- Section: Design Block -->
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="mHeader">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid mx-4">
+                <a href="#" class="navbar-brand wow animate__animated animate__tada data-wow-duration=" 2s" data-wow-iteration="2" " style="">
+                    <img src="../Images/MOLBHAV_logo.jpg" alt="logo" id="logo">
+                </a>
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link">
+                                <div class="input-group w-80 mx-4 pr-4">
+                                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                                    <button type="button" class="btn btn-outline-primary">search</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#aboutus" class="nav-link">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#product" class="nav-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#partner" class="nav-link">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ourteam" class="nav-link">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contactus" class="nav-link">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border:0; text-decoration:none;background:none">
+                                    <a href="#exampleModal" class="nav-link">Login</a></button>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a href="#slider" class="nav-link">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- slider -->
+
+    <div class="container my-5 wow animate__animated animate__zoomIn ">
+        <div id="sliderId" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#sliderId" data-bs-slide-to="10" aria-label="Slide 11"></button>
+            </div>
+            <div class="carousel-inner" data-bs-ride="false">
+                <div class="carousel-item active">
+                    <img src="../images/MOLBHAV_logo.jpg" class="d-block w-100 " alt="molbhav">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/cookies.png" class="d-block w-100 " alt="cookies">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/dry-fruits.png" class="d-block w-100" alt="dry-fruits">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/home-made-achar.png" class="d-block w-100" alt="home-made-achar">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/indore-namkeen.png" class="d-block w-100" alt="indore-namkeens">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/kalakand.png" class="d-block w-100" alt="kalakand">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../images/MOLBHAV_logo.jpg" class="d-block w-100 " alt="cookies">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/nan-khatai.png" class="d-block w-100" alt="nan-khatai">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/panchhi-petha.png" class="d-block w-100" alt="panchhi-petha">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/patisa.png" class="d-block w-100" alt="patisa">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/pure-desi-cow-ghee.png" class="d-block w-100" alt="pure-desi-cow-ghee">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#sliderId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sliderId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <product>
+        <div class="text-center" id="product">
+            <h1>DISCOVER THE PREMIUM QUALITY PRODUCTS</h1>
+        </div>
+        <div class="container">
+            <div class="products">
+                <div class="row">
+                    <div class="col col-md-4 col-lg-3 ">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/all-cookies.jpg" class="card-img-top" alt="all-cookies">
+                                <div class="card-body">
+                                    <h5 class="card-title">Deshi Ghee cookies</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3 ">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/petha-gulab-laddu.jpg" class="card-img-top" alt="all-cookies">
+                                <div class="card-body">
+                                    <h5 class="card-title">Paanchhi Petha</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3 ">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/Gulaab-laddu-petha.jpg" class="card-img-top" alt="all-cookies">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gulaab Laddu</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3 ">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/kaju-dalsev.png" class="card-img-top" alt="all-cookies">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kaju Dalsev</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3 ">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/kesardrai-petha.jpg" class="card-img-top" alt="all-cookies">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kesardrai Petha</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/all-dry-fruits.jpg" class="card-img-top" alt="all-dry-fruits">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dry Fruits</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/all-gajaks.jpg" class="card-img-top" alt="all-gajaks">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gajak</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/all-ghee-oil.jpg" class="card-img-top" alt="all-ghee-oil">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pure Deshi Ghee and Oil</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/all-namkeens.jpg" class="card-img-top" alt="all-namkeens">
+                                <div class="card-body">
+                                    <h5 class="card-title">Namkeens</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/all-pickles.jpg" class="card-img-top" alt="all-pickles">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pickels</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/all-sweets.jpg" class="card-img-top" alt="all-sweets">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sweets</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/lrani-pista-dry-fruits.jpg" class="card-img-top" alt="all-sweets">
+                                <div class="card-body">
+                                    <h5 class="card-title">Irani Pista</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/walnuts-white-dry-fruits.jpg" class="card-img-top" alt="all-sweets">
+                                <div class="card-body">
+                                    <h5 class="card-title">Walnuts</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/Rasbhari-petha.jpg" class="card-img-top" alt="all-sweets">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rasbhari Petha</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/Melon-kancha-petha.jpg" class="card-img-top" alt="all-sweets">
+                                <div class="card-body">
+                                    <h5 class="card-title">Melon Kancha</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <a href="#">
+                            <div class="card w-24 my-2">
+                                <img src="../images/Mango-cherry-petha.jpg" class="card-img-top" alt="all-sweets">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mango Cherry</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </product>
+    <div class="container">
+        <div class="prBtn py-5">
+            <button class="btn btn-success btn-lg">View all Products</button>
+        </div>
+    </div>
+    <div class="container-fluid  align-items-center p-5 " style="background-image: linear-gradient( 0.8deg, rgba(255,136,102,0.67) -20.1%, rgba(255,221,136,0.28) 49% ); ">
+        <div class="container mx-4 pl-4 align-items-center w-70 h-50 btn-outline-dark">
+            <div class="dwnld">
+                <div class="row pl-5" style="flex-flow :row-reverse">
+                    <div class="col pl-5 ">
+                        <img src="../images/go_pure_ios_app.gif" alt="ios_app" class="img-container">
+                    </div>
+
+                    <div class="col pl-5 ">
+                        <h4 class="title mt-5">Order Online</h4>
+
+                        <div class="subtitle pt-2">
+                            <h4>Download The App</h4>
+                        </div>
+                        <div class="py-4">
+                            <a href="#"><img src="../images/ios-app-store.png" alt="ios_app_store"></a>
+
+                            <a href="#"><img src="../images/google_Play_logo.png" alt="google_Play_logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <!-- owl slider-->
+
+    <section id="slider" class="pt-5">
+        <div class="container">
+            <h1 class="text-center"><b>Shop By State</b></h1>
+            <div class="slider">
+                <div class="owl-carousel">
+                    <a href="madhayapradesh.html">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/madhya-pradesh-map.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>Madhaya Pradesh</b></h3>
+                            <p class="text-center p-4">Madhaya Pradesh</p>
+                        </div>
+                    </a>
+
+                    <a href="uttarpradesh.html">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/uttar-pradesh-map.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>Uttar Pradesh</b></h3>
+                            <p class="text-center p-4">Uttar Pradesh</p>
+                        </div>
+                    </a>
+                    <a href="rajasthan.html">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/rajasthan-map.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>Rajasthan</b></h3>
+                            <p class="text-center p-4">Rajasthan</p>
+                        </div>
+                    </a>
+                    <a href="delhi.html">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/delhi-map.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>Dilhi</b></h3>
+                            <p class="text-center p-4">Dilhi</p>
+                        </div>
+                    </a>
+                    <a href="tamilnaidu.html">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/tamil-naidu-map.png" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>Tamilnaidu</b></h5>
+                            <p class="text-center p-4">Tamilnaidu</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/script.js"></script>
+
+
+    <!-- About 1 - Bootstrap Brain Component -->
+    <section class="bg-light py-5 py-xl-8" id="aboutus">
+        <div class="container wow animate__animated animate__fadeInRightBig " data-wow-duration="2s">
+            <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
+                <div class="col-12 col-lg-5">
+                    <img class="img-fluid rounded" loading="lazy" src="../Images/myphotoless.jpeg" alt="">
+                </div>
+                <div class="col-12 col-lg-7">
+                    <h1>About Us</h1>
+                    <h2 class="h1 mb-3">Who Are We?</h2>
+                    <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
+                    <p class="mb-5">Nullam gravida orci ac luctus molestie. Fusce finibus congue erat, non aliquam magna tincidunt at. Aenean lacinia arcu ex, sed pharetra nibh porta a. Curabitur vel consequat nibh, ac interdum nisl. Nunc pulvinar nec massa vitae sollicitudin.</p>
+                    <div class="row gy-5 gy-md-0 gx-xxl-5">
+                        <div class="col-12 col-md-6">
+                            <div class="d-flex">
+                                <div class="me-4 text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="mb-3">Versatile Brand</h4>
+                                    <p class="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="d-flex">
+                                <div class="me-4 text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="mb-3">Digital Agency</h4>
+                                    <p class="text-secondary mb-0">We believe in innovation by integrating primary with elaborate ideas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Our Team Section-->
+
+    <div class="bg-light py-5 ourteam" id="ourteam">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-lg-5">
+                    <h2 class="display-4 font-weight-light">Our team</h2>
+                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="row text-center wow animate__animated animate__fadeInLeftBig  " data-wow-duration="3s">
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="../Images/myphotoless.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Sachin Mishra</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Manuella Nevoresky</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Samuel Hardy</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Samuel Hardy</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">John Tarly</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 team_item">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="../Images/Sachin.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">John Tarly</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- owl slider our pateners-->
+
+    <section id="slider" class="pt-5" i>
+        <div class="container" id="partner">
+            <h1 class="text-center"><b>Our Partners</b></h1>
+            <div class="slider">
+                <div class="owl-carousel">
+                    <a href="madhayapradesh.html">
+                        <div class="slider-card1">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/daboo-logo.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>DABOO</b></h3>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+
+                    <a href="uttarpradesh.html">
+                        <div class="slider-card1">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/bsbn-agra-logo.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>BSBN</b></h3>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+                    <a href="rajasthan.html">
+                        <div class="slider-card1">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/baba-logo.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>BABA</b></h3>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+                    <a href="delhi.html">
+                        <div class="slider-card1">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/avon-logo-brown.png" alt="">
+                            </div>
+                            <h3 class="mb-0 text-center"><b>AVON</b></h3>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+                    <a href="tamilnaidu.html">
+                        <div class="slider-card1">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/adarsh-logo.png" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>Adarsh</b></h5>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+                    <a href="tamilnaidu.html">
+                        <div class="slider-card1">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/gokul-logo.png" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>GOKUL</b></h5>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+                    <a href="tamilnaidu.html">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/shagun-logo.png" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>SHAGUN</b></h5>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+                    <a href="tamilnaidu.html">
+                        <div class="slider-card1">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="../Images/thillais-masala-logo.png" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>THILLAIS MASALA</b></h5>
+                            <p class="text-center p-4"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--our pateners-->
+    <!--<div class="container mb-4 pateners">
+        <h2>Our  Partners</h2>
+        <section class="customer-logos slider " style="flex-flow:row">
+            <div class="slide">
+                <img src="../Images/adarsh-logo.png">
+            </div>
+            <div class="slide">
+                <img src="../Images/avon-logo-brown.png">
+            </div>
+            <div class="slide">
+                <img src="../Images/baba-logo.png">
+            </div>
+            <div class="slide">
+                <img src="../Images/bsbn-agra-logo.png">
+            </div>
+            <div class="slide">
+                <img src="../Images/daboo-logo.png">
+            </div>
+            <div class="slide">
+                <img src="../Images/gokul-logo.png">
+            </div>
+            <div class="slide">
+                <img src="../Images/shagun-logo.png">
+            </div>
+            <div class="slide">
+                <img src="../Images/thillais-masala-logo.png">
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>-->
+
+
+    <div style="background-image: linear-gradient( 0deg, rgba(96,221,142,1) 11.2%, rgba(24,138,141,1) 100% ); position: static ">
+        <div class="container">
+            <div class="row py-3" style="color: #fff;">
+                <div class="col">
+                    <h5>Email Us: support@gopure.co.in</h5>
+                </div>
+                <div class="col">
+                    <h5>Customer Care will be Open 24/7: +91 8887930549</h5>
+                    <h5>10.00 am to 6.00 pm -(Monday to Friday) </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-0 px-3" style="background-image: radial-gradient( circle farthest-corner at -4% -12.9%, rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); " id="contactus">
+        <div class="row py-5">
+            <div class="col col-6">
+                <img src="../images/MOLBHAV_logo.jpg" id="footImg" alt="logo">
+                <h4 style="color: #7cc650;">Real, trusted, Authentic Marcket of India</h4>
+                <h2 class="py-2">Connect with Us On</h2>
+                <h2>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </h2>
+            </div>
+            <div class="col col-3" style="color:White">
+                <h2 class="cHeading">Company</h2>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col col-3" style="color:white">
+                <h2 class="cHeading">Useful Links</h2>
+                <ul>
+                    <li><a href="">Offers and Discounts</a></li>
+                    <li><a href="">Cancellations, Return and Refunds</a></li>
+                    <li><a href="">Sell Your Products with Us</a></li>
+                    <li><a href="">Find Us in Your State</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="fContent py-3">
+
+
+            <h5 class="wow animate__animated animate__fadeInLeft">© 2023 Go Pure. All rights reserved</h5>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!--<script src="../js/wow.min.js"></script>-->
+    <script>
+        new WOW().init();
+    </script>
+</html>
